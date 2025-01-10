@@ -1,0 +1,55 @@
+table {
+  height: 80%;
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+img {
+  width: 80px;
+  height: 100px;
+  border-radius: 80%;
+}
+img:hover {
+  transform: rotatey(280deg);
+  transition-duration: 2s;
+}
+table th {
+  background-color: black;
+  color: white;
+  height: 50px;
+  text-transform: capitalize;
+  border: 1px solid white;
+}
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 100px;
+  text-transform: capitalize;
+}
+.btn {
+  width: 50%;
+  height: 30%;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.view {
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin: 15px;
+}
+.delete {
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.update {
+  background-color: green;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
